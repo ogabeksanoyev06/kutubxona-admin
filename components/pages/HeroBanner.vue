@@ -4,7 +4,7 @@ import { Button } from "~/components/ui/button";
 
 <template>
   <section class="py-8 md:py-12 md:pb-8 lg:py-24 lg:pb-10">
-    <div class="flex flex-col items-center gap-y-6">
+    <div class="flex flex-col items-center justify-center gap-y-6">
       <div
         class="inline-flex items-center border rounded-full bg-muted px-3 py-1.5 text-sm font-medium"
       >

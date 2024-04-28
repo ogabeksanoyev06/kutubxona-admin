@@ -6,7 +6,7 @@ import AppHeader from "~/components/layouts/default/AppHeader.vue";
   <div class="relative flex min-h-screen flex-col bg-background">
     <AppHeader />
     <main class="flex-1">
-      <div class="border-b"><slot /></div>
+      <div class=""><slot /></div>
     </main>
     <AppFooter />
   </div>

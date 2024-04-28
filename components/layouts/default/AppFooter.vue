@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <footer class="relative">
+  <footer class="border-t bg-background">
     <div
       class="container py-8 lg:py-4 lg:flex lg:items-center lg:justify-between lg:gap-x-3"
     >
