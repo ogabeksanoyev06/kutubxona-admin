@@ -8,7 +8,7 @@ const route = useRoute();
 <template>
   <div class="flex min-h-screen flex-col bg-background">
     <AppHeader />
-    <div class="flex-1">
+    <main class="flex-1 pt-6 pb-12">
       <div class="container flex-1 relative py-6 grid xl:grid-cols-12 gap-6">
         <div class="xl:col-span-2">
           <div class="sticky top-20">
@@ -58,7 +58,7 @@ const route = useRoute();
           <slot />
         </main>
       </div>
-    </div>
+    </main>
     <AppFooter />
   </div>
 </template>
